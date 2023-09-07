@@ -9,7 +9,7 @@ warnings.filterwarnings("ignore")
 train=pd.read_csv("trainRiverWater.csv")
 
 rf=RandomForestRegressor(
-    n_estimators=1, #1000
+    n_estimators=1000, #1000
     max_depth=7, #7
     n_jobs=-1,
     random_state=42)
